@@ -1,0 +1,38 @@
+.epigraph {
+  text-align: right;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.banner {
+  width: 45rem;
+}
+.banner:hover {
+  transform: scale(1.05);
+  transition: all 0.5s linear;
+}
+.text {
+  text-align: center;
+}
+.gif-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(247,248,250);
+  background: radial-gradient(circle, rgba(247,248,250,1) 76%, rgba(211,209,255,1) 95%, rgba(255,255,255,1) 100%);
+  border-radius: 25px;
+  padding: 35px;
+  margin: 20px;
+  height: 60vh;
+
+}
+img {
+  width: 35rem;
+}
+img:hover{
+  transform: scale(1.03);
+  transition: all 0.5s linear;
+}

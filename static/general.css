@@ -1,0 +1,52 @@
+body{
+  margin: 0 20px 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s linear;
+}
+
+/***********************************************************************
+ *  Navigation
+ **********************************************************************/
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-top: 5px;
+  list-style: none;
+  font-size: 17px;
+  background-color: white;
+  border-bottom: 1.5px solid blue;
+}
+/* push one anchor to the left */
+.push-left{
+  margin-right: auto;
+}
+li{
+  padding: 10px;
+  text-align: center;
+}
+li:hover{
+  transform: scale(1.06);
+  transition: all 0.1s linear;
+}
+a{
+  color: #333333;
+  text-decoration: none;
+}
+/* makes navigation bar sticky */
+.sticky{
+  position: sticky;
+  top: 0;
+  width: 100%
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+
+footer{
+  text-align: center;
+  background-color: white;
+  border-top: 1.5px solid blue;
+}
