@@ -1,0 +1,75 @@
+/* General Grid wrapper */
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+/* Box style + buttons */
+.box-text {
+  text-align: center;
+  margin: 10px 15%;
+  padding: 20px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+.button:hover{
+  transition: all 0.15s linear;
+}
+.box-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  margin: 25px;
+}
+.box-logo > img {
+  width: 100%;
+}
+.box-logo:hover {
+  transform: scale(1.05);
+  transition: all 0.5s linear;
+}
+/* Colour styles + hovers */
+.pink{
+  border: 2px solid #CB45B8;
+}
+.pink:hover{
+  background-color: #CB45B8;
+  color: white;
+}
+.blue{
+  border: 2px solid #536DFE;
+}
+.blue:hover{
+  background-color: #536DFE;
+  color: white;
+}
+.purple{
+  border: 2px solid #711EC5 ;
+}
+.purple:hover{
+  background-color: #711EC5 ;
+  color: white;
+}
+.gray{
+  border: 2px solid #282C34;
+}
+.gray:hover{
+  background-color: #282C34;
+  color: white;
+}
+
+/* Colour borders */
+.pink-border{
+  border-top: 1.5px solid #CB45B8;
+}
+.blue-border{
+  border-top: 1.5px solid #536DFE;
+}
