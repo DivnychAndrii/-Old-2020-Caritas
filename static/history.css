@@ -16,7 +16,7 @@
 }
 .container-1 > h1{
   text-align: center;
-  font-size: 55px;
+  font-size: 7em;
   padding: 0;
   margin: 0;
   color: #536DFE;
@@ -24,6 +24,7 @@
 .container-1 > h3 {
   padding: 0;
   margin: 0;
+  font-size: 2.5em;
 }
 .grid-wrapper {
   display: grid;
