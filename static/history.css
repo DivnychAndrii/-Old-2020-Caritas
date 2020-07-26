@@ -6,25 +6,22 @@
   background-image: url(../img/history.jpg);
   background-repeat: no-repeat;
 }
-.container-1 {
-  padding: 0;
-  margin: 10%;
-}
-.container-2 {
+.container{
   margin: 5%;
   width: 45%;
 }
-.container-1 > h1{
+.container > h1{
   text-align: center;
-  font-size: 7em;
+  font-size: 5em;
+  letter-spacing: 4px;
+  color: white;
   padding: 0;
   margin: 0;
-  color: #536DFE;
 }
-.container-1 > h3 {
-  padding: 0;
-  margin: 0;
-  font-size: 2.5em;
+p {
+  text-align: justify;
+  font-size: 1.1em;
+  color: white;
 }
 .grid-wrapper {
   display: grid;
