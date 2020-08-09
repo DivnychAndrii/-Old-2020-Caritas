@@ -24,3 +24,19 @@ body {
 img{
   width: 30rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .grid-wrapper {
+    display: block;
+    width: 100%;
+
+  }
+  .box-text {
+    height: 25%;
+    font-size: 30px;
+  }
+  .box-gif{
+    width: 100%;
+    height: 75%;
+  }
+}

@@ -18,6 +18,7 @@
 .button{
   padding: 10px 25px;
   border-radius: 25px;
+  transition: all 0.3s;
 }
 .button:hover{
   transition: all 0.15s linear;
@@ -28,6 +29,7 @@
   justify-content: center;
   padding-bottom: 10%;
   margin: 25px;
+  transition: all 0.3s;
 }
 .box-logo > img {
   width: 100%;
@@ -36,6 +38,7 @@
   transform: scale(1.05);
   transition: all 0.5s linear;
 }
+
 /* Colour styles + hovers */
 .pink{
   border: 2px solid #CB45B8;
@@ -72,4 +75,29 @@
 }
 .blue-border{
   border-top: 1.5px solid #536DFE;
+}
+@media screen and (max-width: 1000px) {
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 1rem;
+    border-bottom: 2px solid #CB45B8;
+  }
+  .box-text {
+    text-align: center;
+    margin: 10px 5%;
+    padding: 20px;
+  }
+  .button{
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: all 0.3s;
+    font-size: 25px;
+  }
+  .pink-border{
+    border-top: none;
+  }
+  .blue-border {
+    border-top: none;
+  }
 }
